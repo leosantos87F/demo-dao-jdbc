@@ -66,7 +66,7 @@ public class DB {
 		}	
 		
 	}
-		public static void closeResult(ResultSet rs) {
+		public static void closeResultSet(ResultSet rs) {
 			if (rs != null) {
 				try {
 					rs.close();
